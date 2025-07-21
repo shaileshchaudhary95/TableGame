@@ -1,0 +1,96 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #4949d1;
+    z-index: 99;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    padding: .3rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: #fff;
+    background: #8787ce;
+}
+
+.nav-settings{
+    position: absolute;
+    top: -1000%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: all .3s ease-in;
+    
+}
+
+.show-menu{
+    top: 85px;
+}
+
+.quick-start-settings,
+.system-settings,
+.multiplication-settings,
+.addtion-settings,
+.substraction-settings,
+.square-settings,
+.cube-settings,
+.division-settings,
+.theme-settings {
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background: #4949d1;
+}
+
+.quick-start-settings h3,
+.system-settings h3,
+.multiplication-settings h3,
+.addtion-settings h3,
+.substraction-settings h3,
+.square-settings h3,
+.cube-settings h3,
+.division-settings h3,
+.theme-settings h3{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.select-quaction,
+.select-system,
+.select-multiplication,
+.select-addition,
+.select-substraction,
+.select-square,
+.select-cube,
+.select-division,
+.select-theme {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+.hr {
+    width: 95%;
+    background: #333;
+}
